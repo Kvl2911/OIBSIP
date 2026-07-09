@@ -25,6 +25,7 @@ The objective of this task is to understand how Nmap can be used to discover ope
 4. Opened Windows PowerShell.
 5. Verified the installation using: ```nmap --version```
 The installation was successful and Nmap version 7.99 was displayed.
+<img width="1702" height="145" alt="image" src="https://github.com/user-attachments/assets/f9048644-9ac1-4fd8-81b4-7a77aa0da25b" />
 
 ---
 
@@ -33,14 +34,20 @@ The installation was successful and Nmap version 7.99 was displayed.
 ### Basic Scan
 
 ```nmap 10.63.228.37```
+<img width="807" height="237" alt="image" src="https://github.com/user-attachments/assets/1b8de845-9a54-44d5-9a45-4648f614f3a1" />
+
 
 ### Service Version Detection
 
 ```nmap -sV 10.63.228.37```
+<img width="870" height="296" alt="image" src="https://github.com/user-attachments/assets/a8317c77-1d9d-460e-b491-79d43c190151" />
+
 
 ### Operating System Detection
 
 ```nmap -O 10.63.228.37```
+<img width="1143" height="471" alt="image" src="https://github.com/user-attachments/assets/ee3ef14f-3e49-4947-8cb4-a510ca211109" />
+
 
 ---
 
