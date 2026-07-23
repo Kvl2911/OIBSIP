@@ -87,6 +87,16 @@ sudo nmap -Pn -p 22,23,80,443 localhost
 
 The firewall rules were successfully applied and verified using the UFW status output and the Nmap scan results.
 
+### Testing Method
+
+The firewall configuration was verified using the `sudo ufw status verbose` command to confirm that all firewall rules were active. An additional Nmap scan was performed using:
+
+```bash
+sudo nmap -Pn -p 22,23,80,443 localhost
+```
+
+The scan was used to inspect the configured ports after applying the firewall rules. The UFW configuration and Nmap output together were used to verify that the firewall rules had been successfully applied.
+
 ## Why These Rules Were Chosen
 
 - **SSH (Port 22)** was allowed to permit secure remote administration.
